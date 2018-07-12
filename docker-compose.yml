@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  swaggerui:
+    image: ${DOCKER_REGISTRY}swaggerui
+    build:
+      context: .
+      dockerfile: Dockerfile

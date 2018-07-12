@@ -39,6 +39,7 @@
     <Description>Swagger UI for public API's that follows the marketing requirements of Dualog.</Description>
     <Copyright>Dualog AS</Copyright>
     <PackageTags>api, swagger</PackageTags>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
 </Project>
