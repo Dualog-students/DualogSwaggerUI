@@ -43,12 +43,32 @@ namespace SwaggerUI
             app.UseSwaggerUI(options =>
             {
                 options.DocumentTitle = "Dualog.net API Docs";
+
+                // Enables a search bar for the "SwaggerTagAttribute"
                 options.EnableFilter();
+
+                // Enables a swagger config validator
                 options.EnableValidator();
+
                 options.DisplayRequestDuration();
+
+                // Collapses all controllers/endpoints in the view
+                options.DocExpansion(DocExpansion.None);
+
+                // Removes the "models" section from the end of the view
+                //options.DefaultModelsExpandDepth(-1);
+
+                // Define the endpoint for serving the swagger documentation
                 options.SwaggerEndpoint("/resource-server/swagger/v1/swagger.json", "My API V1");
 
-                // Additional OAuth settings 
+                // Add the custom index.html page 
+                options.IndexStream = () =>
+                    Assembly.GetExecutingAssembly().GetManifestResourceStream("SwaggerUI.Resources.index.html");
+
+                // Set our custom css
+                options.InjectStylesheet("/resource-server/swagger-ui/dualog-swagger.css");
+
+                // Additional OAuth settings (app specific, but same concept)
                 // (See https://github.com/swagger-api/swagger-ui/blob/v3.10.0/docs/usage/oauth2.md)
                 options.OAuthClientId("test-id");
                 options.OAuthClientSecret("test-secret");
@@ -59,12 +79,6 @@ namespace SwaggerUI
                 options.OAuthUseBasicAuthenticationWithAccessCodeGrant();
 
 
-                // Add the custom index.html page 
-                options.IndexStream = () =>
-                    Assembly.GetExecutingAssembly().GetManifestResourceStream("SwaggerUI.Resources.index.html");
-
-                // Set our custom css
-                options.InjectStylesheet("/resource-server/swagger-ui/dualog-swagger.css");
             });
 
             return app;
@@ -118,6 +132,8 @@ namespace SwaggerUI
                 //{
                 //    { "oauth2", new[] { "readAccess", "writeAccess" } }
                 //});
+
+                options.DescribeAllEnumsAsStrings();
 
                 // Set the comments path for the Swagger JSON and UI.
                 options.IncludeXmlComments(Path.ChangeExtension(Assembly.GetEntryAssembly().Location, "xml"));
