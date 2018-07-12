@@ -1,0 +1,267 @@
+﻿.swagger-ui .topbar {
+    border-bottom-style: solid;
+    border-bottom-width: 9px;
+    background-color: #02405a;
+    border-bottom-color: #51c1b7;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label span {
+    color: #51c1b7;
+}
+
+.swagger-ui .topbar .wrapper .topbar-wrapper .link span {
+    display: none;
+}
+
+.swagger-ui pre{
+    font-family:'Poppins';
+}
+.swagger-ui code,.swagger-ui kbd,.swagger-ui samp{
+    font-family:monospace,monospace;
+}
+.swagger-ui button,.swagger-ui optgroup,.swagger-ui select,.swagger-ui textarea{
+    font-family:'Poppins';
+}
+.swagger-ui input{
+    font-size:small;
+    font-family:'Poppins';
+}
+.swagger-ui .sans-serif{
+    font-family:'Poppins';
+}
+.swagger-ui .serif{
+    font-family:'Poppins';
+}
+.swagger-ui .system-sans-serif{
+    font-family:'Poppins';
+}
+.swagger-ui .system-serif{
+    font-family:'Poppins';
+}
+.swagger-ui .code,.swagger-ui code{
+    font-family:Consolas,monaco,monospace
+}
+.swagger-ui .courier{
+    font-family:'Poppins';
+}
+.swagger-ui .helvetica{
+    font-family:'Poppins';
+}
+.swagger-ui .avenir{
+    font-family:'Poppins';
+}
+.swagger-ui .athelas{
+    font-family:'Poppins';
+}
+.swagger-ui .georgia{
+    font-family:'Poppins';
+}
+.swagger-ui .times{
+    font-family:'Poppins';
+}
+.swagger-ui .bodoni{
+    font-family:'Poppins';
+}
+.swagger-ui .calisto{
+    font-family:'Poppins';
+}
+.swagger-ui .garamond{
+    font-family:'Poppins';
+}
+.swagger-ui .baskerville{
+    font-family:'Poppins';
+}
+.swagger-ui .opblock-tag{
+    font-family:'Poppins';
+}
+.swagger-ui .opblock-tag small{
+    font-family:'Poppins';
+}
+.swagger-ui .parameter__type{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .opblock .opblock-section-header label{
+    font-family:'Poppins';
+}
+.swagger-ui .opblock .opblock-section-header h4{
+    font-family:'Poppins';
+}
+.swagger-ui .opblock .opblock-summary-method{
+    font-family:'Poppins';
+}
+.swagger-ui .opblock .opblock-summary-operation-id{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .opblock .opblock-summary-path,.swagger-ui .opblock .opblock-summary-path__deprecated{
+    letter-spacing:1px;
+    font-family:'Poppins';
+}
+.swagger-ui .opblock .opblock-summary-description{
+    font-family:'Poppins';
+}
+.swagger-ui .tab li{
+    padding-right: 13px;
+    font-family:'Poppins';
+}
+.swagger-ui .opblock-description-wrapper,.swagger-ui .opblock-external-docs-wrapper,.swagger-ui .opblock-title_normal{
+    font-family:'Poppins';
+}
+.swagger-ui .opblock-description-wrapper h4,.swagger-ui .opblock-external-docs-wrapper h4,.swagger-ui .opblock-title_normal h4{
+    font-family:'Poppins';
+}
+.swagger-ui .opblock-description-wrapper p,.swagger-ui .opblock-external-docs-wrapper p,.swagger-ui .opblock-title_normal p{
+    font-family:'Poppins';
+}
+.swagger-ui .responses-inner h4,.swagger-ui .responses-inner h5{
+    font-family:'Poppins';
+}
+.swagger-ui .response-col_status{
+    font-family:'Poppins';
+}
+.swagger-ui .response-col_status .response-undocumented{
+    font-family:'Poppins';
+}
+.swagger-ui .response-col_links{
+    font-family:'Poppins';
+}
+.swagger-ui .response-col_links .response-undocumented{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .response-col_description__inner div.markdown,.swagger-ui .response-col_description__inner div.renderedMarkdown{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .response-col_description__inner div.markdown p,.swagger-ui .response-col_description__inner div.renderedMarkdown p{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .response-col_description__inner div.markdown a,.swagger-ui .response-col_description__inner div.renderedMarkdown a{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .response-col_description__inner div.markdown th,.swagger-ui .response-col_description__inner div.renderedMarkdown th{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .opblock-body pre{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .download-contents{
+    font-family:'Poppins';
+}
+.swagger-ui .scheme-container .schemes>label{
+    font-family:'Poppins';
+}
+.swagger-ui .loading-container .loading:after{
+    font-family:'Poppins';
+}
+.swagger-ui section h3{
+    font-family:'Poppins';
+}
+.swagger-ui .btn{
+    font-family:'Poppins';
+}
+.swagger-ui .btn.cancel{
+    font-family:'Poppins';
+}
+.swagger-ui select{
+    font-size:small;
+    font-family:'Poppins';
+}
+.swagger-ui label{
+    font-family:'Poppins';
+}
+.swagger-ui textarea{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui textarea.curl{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .checkbox p{
+    font-family:Source Code Pro,monospace;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content p{
+    font-family:'Poppins';
+}
+.swagger-ui .dialog-ux .modal-ux-content h4{
+    font-family:'Poppins';
+}
+.swagger-ui .dialog-ux .modal-ux-header h3{
+    font-family:'Poppins';
+}
+.swagger-ui .model{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui section.models h4{
+    font-family:'Poppins';
+}
+.swagger-ui section.models h5{
+    font-family:'Poppins';
+}
+.swagger-ui .model-title{
+    font-family:'Poppins';
+}
+.swagger-ui .model-deprecated-warning{
+    font-family:'Poppins';
+}
+
+.swagger-ui .servers>label{
+    font-family:'Poppins';
+}
+.swagger-ui table.headers td{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui table thead tr td,.swagger-ui table thead tr th{
+    font-family:'Poppins';
+}
+.swagger-ui .parameter__name{
+    font-family:'Poppins';
+}
+.swagger-ui .parameter__extension,.swagger-ui .parameter__in{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .parameter__deprecated{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .topbar a{
+    font-family:'Poppins';
+}
+.swagger-ui .topbar .download-url-wrapper .download-url-button{
+    font-family:'Poppins';
+}
+.swagger-ui .info li,.swagger-ui .info p,.swagger-ui .info table{
+    font-family:'Poppins';
+}
+.swagger-ui .info h1,.swagger-ui .info h2,.swagger-ui .info h3,.swagger-ui .info h4,.swagger-ui .info h5{
+    font-family:'Poppins';
+}
+.swagger-ui .info code{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .info a{
+    font-family:'Poppins';
+}
+.swagger-ui .info .base-url{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .info .title{
+    font-family:'Poppins';
+}
+.swagger-ui .info .title small pre{
+    font-family:'Poppins';
+}
+.swagger-ui .auth-container .errors{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .scopes h2{
+    font-family:'Poppins';
+}
+.swagger-ui .errors-wrapper .errors h4{
+    font-family:Source Code Pro,monospace;
+}
+.swagger-ui .errors-wrapper hgroup h4{
+    font-family:'Poppins';
+}
+
+
