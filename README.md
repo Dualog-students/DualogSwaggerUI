@@ -39,7 +39,7 @@ The next step is to consent to the API scopes asked for
 
 When `Grant Access` is pressed you will be redirected to the API again, now you can start using the APIs.
 
-### Takeaways
+### __Takeaways__
 
 Files to take notice to:
 
