@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
 using System.Net;
 
@@ -10,7 +9,6 @@ namespace SwaggerUI.ResourceServer.Controllers
     /// Provides access points for the product resources
     /// </summary>
     [Route("products")]
-    [SwaggerTag("Fredrik")]
     [Authorize(AuthenticationSchemes = "Bearer")]
     public class ProductsController : Controller
     {

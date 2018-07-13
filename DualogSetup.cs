@@ -61,11 +61,11 @@ namespace SwaggerUI
                 // Define the endpoint for serving the swagger documentation
                 options.SwaggerEndpoint("/resource-server/swagger/v1/swagger.json", "My API V1");
 
-                // Add the custom index.html page 
+                // Add the custom index.html page (has to be an embedded resource)
                 options.IndexStream = () =>
                     Assembly.GetExecutingAssembly().GetManifestResourceStream("SwaggerUI.Resources.index.html");
 
-                // Set our custom css
+                // Set our custom css (placed in wwwroot/swagger-ui)
                 options.InjectStylesheet("/resource-server/swagger-ui/dualog-swagger.css");
 
                 // Additional OAuth settings (app specific, but same concept)
@@ -77,8 +77,6 @@ namespace SwaggerUI
                 options.OAuthScopeSeparator(" ");
                 options.OAuthAdditionalQueryStringParams(new { foo = "bar" });
                 options.OAuthUseBasicAuthenticationWithAccessCodeGrant();
-
-
             });
 
             return app;
@@ -115,7 +113,7 @@ namespace SwaggerUI
                     Flow = "implicit",
                     // Token url can be specified also
                     //TokenUrl = "/auth-server/connect/token",
-                    AuthorizationUrl = "/auth-server/connect/authorize",
+                    AuthorizationUrl = "http://localhost:5000/auth-server/connect/authorize",
                     Scopes = new Dictionary<string, string>
                     {
                         { "readAccess", "Access read operations" },
