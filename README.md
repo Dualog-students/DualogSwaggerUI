@@ -21,7 +21,7 @@ dotnet run
 A browser should open at `http://localhost:5000/resource-server/swagger/index.html`,
 the program is also running an Identity server located at `http://localhost:5000/auth-server/`
 
-### __Using the OAuth2 Flow__
+## __Using the OAuth2 Flow__
 
 Press authenticate
 
@@ -39,7 +39,7 @@ The next step is to consent to the API scopes asked for
 
 When `Grant Access` is pressed you will be redirected to the API again, now you can start using the APIs.
 
-### __Takeaways__
+## __Takeaways__
 
 Files to take notice to:
 
@@ -84,7 +84,7 @@ To inject a custom css file to the swagger simply apply this to the SwaggerUI mi
   options.InjectStylesheet("/resource-server/swagger-ui/dualog-swagger.css");
 ```
 
-### __Generating a static JSON file (CLI)__
+## __Generating a static JSON file (CLI)__
 
 __NOTE: This feature is in beta still, might not work__
 
